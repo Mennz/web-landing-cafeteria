@@ -137,3 +137,24 @@ footer p {
   margin-bottom: 5px;
   font-size: 0.9rem;
 }
+
+/* abaixo de 700px o menu quebra pra baixo do logo */
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  header nav ul {
+    gap: 15px;
+  }
+
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
