@@ -37,3 +37,34 @@ header nav a {
 header nav a:hover {
   text-decoration: underline;
 }
+
+#hero {
+  background-color: #6f4e37;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #e8b74f;
+  color: #3b2318;
+  padding: 12px 28px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.botao:hover {
+  background-color: #d8a93f;
+}
